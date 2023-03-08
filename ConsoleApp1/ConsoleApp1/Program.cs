@@ -301,7 +301,7 @@ namespace ConsoleApp1
             }
             Console.WriteLine("Koniec gry.");
             Thread.Sleep(3000);
-            Process.Start(@"C:\Users\pawel\Desktop\ConsoleApp1\ConsoleApp1\minecraft.mp4");
+            Process.Start(@"C:\Users\???\Desktop\ConsoleApp1\ConsoleApp1\minecraft.mp4");
             Console.ReadKey();
         }
     }
