@@ -105,7 +105,6 @@ namespace ConsoleApp1
                         Console.WriteLine("---------------------------------------------------");
                         Console.WriteLine("W domu sa 2 pomieszczenia. Do którego idziesz?");
                         Console.WriteLine("Salon - a \t Piwnica - b \t");
-                        Console.WriteLine($"{czeki.piwnica} {czeki.salon}");
                         
                         
                         if (czeki.piwnica == false & czeki.salon == false)
@@ -200,7 +199,7 @@ namespace ConsoleApp1
                             czeki.piwnica = false;
                         }
                         
-                        else
+                        if (inp2 != "a" & inp2 != "b")
                         {
                             Console.WriteLine("Coś źle");
                         }
