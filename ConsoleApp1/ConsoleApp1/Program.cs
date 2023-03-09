@@ -175,16 +175,21 @@ namespace ConsoleApp1
                             string ul8 = Console.ReadLine();
                             pies.ZwiekszPsa(ul8);
                             Console.WriteLine("Spotykasz tam 4m pająka");
-                            Console.WriteLine("W jaką grę jesteś mistrzem?");
-                            Console.WriteLine("a - minecraft  b - *cenzura* c - roblox");
-                            string inpaj = Console.ReadLine();
                             while(czeki.piwni2 == true)
-                            if (inpaj == "c")
                             {
-                                Thread.Sleep(10000);
-                                Console.WriteLine("rozwalił sie pajączek");
-                                czeki.piwni2 = false;
-                                break;
+                                Console.WriteLine("W jaką grę jesteś mistrzem?");
+                                Console.WriteLine("a - minecraft  b - *cenzura* c - roblox");
+                                string inpaj = Console.ReadLine();
+                                if (inpaj == "c")
+                                {
+                                    Thread.Sleep(10000);
+                                    Console.WriteLine("rozwalił sie pajączek");
+                                    czeki.piwni2 = false;
+                                    break;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Jeszcze raz")
                             }
                             Console.WriteLine("---------------------------------------------------");
                             Console.WriteLine("Kolejne miejsce łaski");
