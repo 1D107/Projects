@@ -13,7 +13,6 @@ namespace ConsoleApp1
         public bool czyzg;
         public bool czyzab;
         public bool czywzr;
-        public bool czyzes;
         public bool lab;
         public bool piwni2;
         public bool piwnica;
@@ -26,7 +25,6 @@ namespace ConsoleApp1
             czyzg = false;
             czyzab = false;
             czywzr = false;
-            czyzes = false;
             lab = false;
             piwnica = true;
             salon = true;
