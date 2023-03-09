@@ -26,6 +26,7 @@ namespace ConsoleApp1
             czyzab = false;
             czywzr = false;
             lab = false;
+            piwni2 = true
             piwnica = true;
             salon = true;
         }
