@@ -290,10 +290,8 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("Dziad się wzruszył i was wypuścił");
             }
-            if (czeki.czyzes == true)
-            {
-                Console.WriteLine("Jakby ci to powiedzieć kolego\t zesrałeś się :(");
-            }
+            
+            
             if (wrz>0)
             {
                 Console.WriteLine("Dziad sie wkurzył i nie wiadomo co z tobą");
